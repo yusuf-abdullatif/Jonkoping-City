@@ -1,9 +1,12 @@
 const express = require('express')
 const app = express()
+const ModelClass = require('../../model');
+const Model = new ModelClass();
 
 const stores = require('./stores.json')
 
-app.get('/', function (req, res) {
+app.get('/', async (req, res) => {
+  const stores = await Model.getAllStores();
     const { storename } = req.query;
   
     const index = stores.findIndex(store => store.name === storename);
