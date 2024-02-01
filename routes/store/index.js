@@ -15,7 +15,7 @@ app.get('/', async (req, res) => {
     if (index > -1) {
       res.send(stores[index])
     } else {
-      res.send('Store not found!')
+      res.send('Store not found!')  
     }
   })
   

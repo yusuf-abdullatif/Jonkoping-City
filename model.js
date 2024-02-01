@@ -2,7 +2,7 @@ const {Pool} = require('pg');
 const storesJson = require('./routes/store/stores.json')
 const pool = new Pool({
   user: 'postgres',
-  host: 'localhost',
+  host: process.env.DB_HOST ||  "localhost",
   database: 'postgres',
   password: process.env.PGPASSWORD,
   port: 5432,
@@ -12,7 +12,7 @@ class ModelClass {
     constructor(){
         this.pool = new Pool({
             user: 'postgres',
-            host: 'localhost',
+            host: process.env.DB_HOST ||  "localhost",
             database: 'postgres',
             password: process.env.PGPASSWORD,
             port: 5432,

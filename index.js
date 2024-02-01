@@ -1,9 +1,11 @@
+require('dotenv').config();
 
 const express = require('express')
-require('dotenv').config();
 const app = express()
 const ModelClass = require('./model.js');
 const Model = new ModelClass();
+const port =  process.env.PORT || 3000;
+
 
 const store = require('./routes/store/index.js')
 app.use('/', store)

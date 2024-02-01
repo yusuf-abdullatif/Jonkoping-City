@@ -4,4 +4,5 @@ Draft readme, to be adjusted later when project is done
 Rest,
 node.js,
 Docker,
-Postgres
+Database: Postgres
+Kubernetes
