@@ -23,14 +23,13 @@ app.get('/login', async (req,res) =>{
 
 });
 
-app.get('/protected', async(req, res) => {
+app.get('/check-user-status', async(req, res) => {
   const{token} = req.cookies;
   if(token === 'super-secret-cookie'){
     res.send('User is logged in!');
   }else{
     res.status(401).send('Unauthorized');
   }
-  res.send('Protected route');
 })
 
 
