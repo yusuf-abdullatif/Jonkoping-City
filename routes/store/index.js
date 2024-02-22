@@ -5,7 +5,7 @@ const Model = new ModelClass();
 
 const stores = require('./stores.json')
 
-app.get('/', async (req, res) => {
+app.get('/stores/storename/', async (req, res) => {
   const stores = await Model.getAllStores();
     const { storename } = req.query;
   
@@ -19,7 +19,13 @@ app.get('/', async (req, res) => {
     }
   })
   
-  app.delete('/', function (req, res) {
+  app.get('/stores/all', async (req, res) => {
+    const stores = await Model.getAllStores();
+    res.send(stores);
+  });
+
+
+  app.delete('/stores/storename/', function (req, res) {
     const { storename } = req.query
     console.log(storename)
     const index = stores.findIndex(store => store.name === storename)
@@ -31,7 +37,7 @@ app.get('/', async (req, res) => {
     }
   })
   
-  app.post('/',
+  app.post('/stores/storename/',
     express.json(), // for parsing application/json body in POST
     (req, res) => {
       const { body } = req
