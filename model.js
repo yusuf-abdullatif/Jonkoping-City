@@ -1,11 +1,12 @@
 const {Pool} = require('pg');
 const storesJson = require('./routes/store/stores.json')
+const restaurantsJson = require('./routes/restaurant/restaurants.json')
 const pool = new Pool({
   user: 'postgres',
   host: process.env.DB_HOST ||  "localhost",
   database: 'postgres',
   password: process.env.PGPASSWORD,
-  port: 5432,
+  port: 5431,
 });
 
 class ModelClass {
@@ -15,7 +16,7 @@ class ModelClass {
             host: process.env.DB_HOST ||  "localhost",
             database: 'postgres',
             password: process.env.PGPASSWORD,
-            port: 5432,
+            port: 5431,
         })
     }
 
@@ -50,10 +51,46 @@ class ModelClass {
                 `, [store.name,store.url,store.district]);   
             }
         }
+
+        //restaurants
+
+        await this.pool.query(`
+        CREATE TABLE IF NOT EXISTS public.restaurants
+        (
+            id SERIAL,
+            name text,
+            rating text,
+            address text,
+            restaurant_type text,
+            website text,
+            CONSTRAINT restaurants_pkey PRIMARY KEY (id)
+        )`);
+        await this.pool.query(`
+        ALTER TABLE IF EXISTS public.restaurants
+        OWNER to postgres;`);
+    
+    for (const restaurant of restaurantsJson){
+        const { rows } = await this.pool.query(`
+        SELECT * FROM public.restaurants WHERE name = $1
+        `,[restaurant.name]); 
+        
+        if(rows.length === 0){
+            await this.pool.query(`
+                INSERT INTO public.restaurants(name,rating,address,restaurant_type,website)
+                VALUES ($1,$2,$3,$4,$5)
+                `, [restaurant.name,restaurant.rating,restaurant.address,restaurant.restaurant_type,restaurant.website]);   
+            }
+        }
     }
     async getAllStores(){
         const{rows} = await this.pool.query(`
         SELECT * FROM public.stores`);
+        return rows;
+    }
+
+    async getAllRestaurants(){
+        const{rows} = await this.pool.query(`
+        SELECT * FROM public.restaurants`);
         return rows;
     }
 }
