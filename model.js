@@ -87,6 +87,12 @@ class ModelClass {
         SELECT * FROM public.stores`);
         return rows;
     }
+
+    async getAllRestaurants(){
+        const{rows} = await this.pool.query(`
+        SELECT * FROM public.restaurants`);
+        return rows;
+    }
 }
 
 module.exports = ModelClass;

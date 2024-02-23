@@ -11,6 +11,9 @@ const port =  process.env.PORT || 3000;
 const store = require('./routes/store/index.js')
 app.use('/', store)
 
+const restaurant = require('./routes/restaurant/index.js')
+app.use('/', restaurant)
+
 let p = __dirname + '/public/'
 
 console.log(p)
