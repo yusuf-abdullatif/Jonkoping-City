@@ -14,6 +14,9 @@ app.use('/', store)
 const restaurant = require('./routes/restaurant/index.js')
 app.use('/', restaurant)
 
+const hotel = require('./routes/hotels/index.js')
+app.use('/', hotel)
+
 let p = __dirname + '/public/'
 
 console.log(p)
