@@ -8,4 +8,4 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD  ["node", "./index.js"]
+CMD ["sh", "-c", "DB_HOST=172.17.0.1 node ./index.js"]
