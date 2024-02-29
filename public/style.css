@@ -284,6 +284,17 @@ body {
     background-position: 0 40%;
 }
 
+.stores-page-top-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url('resources/stores.jpg');
+    background-position: 0 40%;
+}
+
 .about-us-top-page-top-container {
     width: 100%;
     height: 1000px;
@@ -590,4 +601,39 @@ ul, div,   figcaption {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+}
+
+
+
+
+
+#storesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.store-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* 33.33% width with some margin */
+    max-height: 150px;
+    box-sizing: border-box;
+    background-color: rgb(114, 181, 214);
+}
+
+.store-box h2 {
+    margin-bottom: 5px;
+    font-size: 14px; /* Adjust font size */
+}
+.store-box a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 12px; /* Adjust font size */
+}
+
+.store-box p {
+    margin-top: 5px;
+    font-size: 12px; /* Adjust font size */
 }
