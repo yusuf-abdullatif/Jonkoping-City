@@ -5,7 +5,7 @@ fetch('http://localhost:3000/stores/all')
     });
 
 
-    fetch('http://localhost:3000/stores/?storename=Bikupan')
+    fetch('http://localhost:3000/stores/storename/?storename=Bikupan')
     .then(response => response.json())
     .then(store => {
         console.log(store)
