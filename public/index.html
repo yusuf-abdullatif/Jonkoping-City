@@ -4,17 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
+
+    <script src="start.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
     <script src="./javascript/start.js"></script>
     <link rel="stylesheet" href="style.css">
+
   </head>
 
   <body>
     <div class="main-page-container">
-        <div class="main-page-top-container">
-            <nav data-role="Header" class="main-page-navbar">
-                <div class="main-page-left-side">
-                    <h1>Jonkoping City</h1>
+      <div class="main-page-top-container">
+        <nav data-role="Header" class="main-page-navbar">
+          <div class="main-page-left-side">
+            <h1>Jonkoping City</h1>
+          </div>
+          <div class="main-page-right-side">
+            <div class="main-page-links-container">
+              <span class="main-page-text"><a href="index.html">Home</a></span>
+              <div data-thq="thq-dropdown" class="home-thq-dropdown list-item">
+                <div
+                  data-thq="thq-dropdown-toggle"
+                  class="home-dropdown-toggle-main"
+                >
+                  <span class="home-text">Locations</span>
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    class="home-dropdown-arrow"
+                  >
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
                 </div>
+
+                <ul data-thq="thq-dropdown-list" class="home-dropdown-list">
+                  <li data-thq="thq-dropdown" class="home-dropdown list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle-option"
+                    >
+                      <span class="home-text">Stores</span>
+
                 <div class="main-page-right-side">
                     <div class="main-page-links-container">
     
@@ -50,111 +82,318 @@
                         </div>
                         <span class="main-page-text"> <a href="about_us.html">About Us</a></span>
                         <span class="main-page-text"> <a href="contact_us.html">Contact Us</a></span>
+
                     </div>
-                    <div class="button-container ">
-                        <button class="button-inner">
-                            <span>Sign up</span>
-                        </button>
+                  </li>
+                  <li data-thq="thq-dropdown" class="home-dropdown list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle-option"
+                    >
+                      <span class="home-text">Restaurants</span>
                     </div>
-                    <div class="button-container ">
-                        <button class="button-inner">
-                            <span>Sign in</span>
-                        </button>
+                  </li>
+                  <li data-thq="thq-dropdown" class="home-dropdown list-item">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      class="home-dropdown-toggle-option"
+                    >
+                      <span class="home-text">Hotels</span>
                     </div>
-                </div>
-    
-            </nav>
-            <div class="main-page-middle">
-                <div style="color: white;" class="main-page-text-container">
-                    <h1 class="Heading main-page-text08">Discover the Charm of Jönköping City</h1>
-                    <h2 class="Subheading main-page-subheading">Explore the Heart of Sweden</h2>
-                    <span class="main-page-text">
-                        <span>Immerse yourself in the rich culture and vibrant atmosphere of Jönköping, a city nestled by the shores of Lake Vättern.</span>
-                        <br /><span>Experience the blend of historical charm and modern allure as you wander through picturesque streets.</span><br />
-                        <span>Our commitment to providing a unique and delightful city experience ensures your exploration is unforgettable.</span>
-                    </span>
-                    <div class="button-container">
-                        <button class="button-inner"><a href="resources/Guide.pdf" target="_blank">Explore Jönköping</a></button>
-                    </div>
-                </div>
+                  </li>
+                </ul>
+              </div>
+              <span class="main-page-text">
+                <a href="about_us.html">About Us</a></span
+              >
+              <span class="main-page-text">
+                <a href="contact_us.html">Contact Us</a></span
+              >
             </div>
-            
-            
+            <div class="button-container">
+              <button class="button-inner">
+                <span>Sign up</span>
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button-inner">
+                <span>Sign in</span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="main-page-middle">
+          <div style="color: white" class="main-page-text-container">
+            <h1 class="Heading main-page-text08">
+              Discover the Charm of Jönköping City
+            </h1>
+            <h2 class="Subheading main-page-subheading">
+              Explore the Heart of Sweden
+            </h2>
+            <span class="main-page-text">
+              <span
+                >Immerse yourself in the rich culture and vibrant atmosphere of
+                Jönköping, a city nestled by the shores of Lake Vättern.</span
+              >
+              <br /><span
+                >Experience the blend of historical charm and modern allure as
+                you wander through picturesque streets.</span
+              ><br />
+              <span
+                >Our commitment to providing a unique and delightful city
+                experience ensures your exploration is unforgettable.</span
+              >
+            </span>
+            <div class="button-container">
+              <button class="button-inner">
+                <a href="resources/Guide.pdf" target="_blank"
+                  >Explore Jönköping</a
+                >
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    
-    
+
+    <div>
+      <div class="main-page-container">
+        <div id="main-section" class="main-page-main">
+          <h1>Top Attractions</h1>
+          <div class="main-page-info-container">
+            <div class="info-image-container">
+              <img
+                alt="image"
+                src="resources/Stadsparken.jpg"
+                class="info-image"
+              />
+              <div class="info-text-container">
+                <span class="info-title"><span>Stadsparken View</span></span>
+
+                <div class="info-box-container">
+                  <button class="info-box-button Button">
+                    <a
+                      href="https://www.google.com/maps/place/Utsikten,+Stadsparken/@57.7808626,14.1357169,15.34z/data=!4m6!3m5!1s0x465a6d5af967e005:0x82d38ab8cd5a3754!8m2!3d57.7829717!4d14.1444818!16s%2Fg%2F11q2j_nsh4?entry=ttu"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      Show On Map
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-image-container">
+              <img
+                alt="image"
+                src="resources/Huskvarna.jpg"
+                class="info-image"
+              />
+              <div class="info-text-container">
+                <span class="info-title"><span>Huskvarna View</span></span>
+
+                <div class="info-box-container">
+                  <button class="info-box-button Button">
+                    <a
+                      href="https://www.google.com/maps/place/Utsikten+Huskvarna/@57.7807367,14.1645243,14.56z/data=!4m6!3m5!1s0x465a6d38530245a1:0x55df2696f581b3ed!8m2!3d57.7919682!4d14.2864926!16s%2Fg%2F11kl5zy69j?entry=ttu"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      Show On Map
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-image-container">
+              <img
+                alt="image"
+                src="resources/Dumme Mosse.jpg"
+                class="info-image"
+              />
+              <div class="info-text-container">
+                <span class="info-title"><span>Dumme Mosse Hike</span></span>
+
+                <div class="info-box-container">
+                  <button class="info-box-button Button">
+                    <a
+                      href="https://www.google.com/maps/place/Dumme+mosse/@57.7402744,14.0395698,13.61z/data=!4m6!3m5!1s0x465a7137f4f9854d:0x888c9a6a09473c70!8m2!3d57.738193!4d14.047481!16s%2Fg%2F11hdjb75q3?entry=ttu"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      Show On Map
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="info-image-container">
+              <img
+                alt="image"
+                src="resources/Jönköping city park.jpg"
+                class="info-image"
+              />
+              <div class="info-text-container">
+                <span class="info-title"><span>Jönköping city park</span></span>
+
+                <div class="info-box-container">
+                  <button class="info-box-button Button">
+                    <a
+                      href="https://www.google.com/maps/place/J%C3%B6nk%C3%B6pings+stadspark/@57.7805986,14.135994,17z/data=!3m1!4b1!4m6!3m5!1s0x465a6de3c9b25223:0xec4750487de8d8df!8m2!3d57.7805986!4d14.1385743!16s%2Fg%2F11dyk4wsk?entry=ttu"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      Show On Map
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <div>
         <div class="main-page-container">
-            <div id="main-section" class="main-page-main">
-                <h1>Top Attractions</h1>
-                <div class="main-page-info-container">
-                    <div class="info-image-container">
-                        <img alt="image" src="resources/Stadsparken.jpg" class="info-image"/>
-                        <div class="info-text-container">
-                            <span class="info-title"><span>Stadsparken View</span></span>
-                            
-                            <div class="info-box-container" >
-    
-                                <button class="info-box-button Button">
-                                    <a href="https://www.google.com/maps/place/Utsikten,+Stadsparken/@57.7808626,14.1357169,15.34z/data=!4m6!3m5!1s0x465a6d5af967e005:0x82d38ab8cd5a3754!8m2!3d57.7829717!4d14.1444818!16s%2Fg%2F11q2j_nsh4?entry=ttu" target="_blank" rel="noreferrer noopener">
-                                        Show On Map
-                                    </a>
-                                </button>
-    
-                            </div>
+          <div id="main-section" class="main-page-main">
+            <div class="main-page-info-container">
+
+              <div class="info-image-container">
+                <div class="info-text-container">
+  
+                  <div class="info-box-container">
+                    <button class="nav-button Button">
+                        <div class="nav-title">
+                            <span>Stores</span>
+                            <svg style="margin-left: 30px;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><path d="M29.8,9.4l9.8,9.5c0.6,0.6,0.6,1.5,0,2.1l-9.8,9.5c-0.6,0.6-1.6,0.6-2.2,0C27,30,27,29,27.6,28.5l7.2-7H0v-3 h34.7l-7.2-7C27,11,27,10,27.6,9.4C28.2,8.9,29.2,8.9,29.8,9.4z"></path></svg>
                         </div>
-                    </div>
-    
-                    <div class="info-image-container">
-                        <img alt="image" src="resources/Huskvarna.jpg" class="info-image"/>
-                        <div class="info-text-container">
-                            <span class="info-title"><span>Huskvarna View</span></span>
-                            
-                            <div class="info-box-container">
-                                <button class="info-box-button Button">
-                                    <a href="https://www.google.com/maps/place/Utsikten+Huskvarna/@57.7807367,14.1645243,14.56z/data=!4m6!3m5!1s0x465a6d38530245a1:0x55df2696f581b3ed!8m2!3d57.7919682!4d14.2864926!16s%2Fg%2F11kl5zy69j?entry=ttu" target="_blank" rel="noreferrer noopener">
-                                        Show On Map
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="info-image-container">
-                        <img alt="image" src="resources/Dumme Mosse.jpg" class="info-image"/>
-                        <div class="info-text-container">
-                            <span class="info-title"><span>Dumme Mosse Hike</span></span>
-                            
-                            <div class="info-box-container">
-                                <button class="info-box-button Button">
-                                    <a href="https://www.google.com/maps/place/Dumme+mosse/@57.7402744,14.0395698,13.61z/data=!4m6!3m5!1s0x465a7137f4f9854d:0x888c9a6a09473c70!8m2!3d57.738193!4d14.047481!16s%2Fg%2F11hdjb75q3?entry=ttu" target="_blank" rel="noreferrer noopener">
-                                        Show On Map
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="info-image-container">
-                        <img alt="image" src="resources/Jönköping city park.jpg" class="info-image"/>
-                        <div class="info-text-container">
-                            <span class="info-title"><span>Jönköping city park</span></span>
-                            
-                            <div class="info-box-container">
-                                <button class="info-box-button Button">
-                                    <a href="https://www.google.com/maps/place/J%C3%B6nk%C3%B6pings+stadspark/@57.7805986,14.135994,17z/data=!3m1!4b1!4m6!3m5!1s0x465a6de3c9b25223:0xec4750487de8d8df!8m2!3d57.7805986!4d14.1385743!16s%2Fg%2F11dyk4wsk?entry=ttu" target="_blank" rel="noreferrer noopener">
-                                        Show On Map
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                  
-    
+                        
+                      <p style="font-size: medium;">
+                        In Jkpg City, you'll find a variety of shops and stores offering everything from thrift and second-hand items to flowers, shoes, clothes, and home decor.                      </p>
+                    </button>
+                  </div>
                 </div>
+              </div>
+
+              <div class="info-image-container">
+                <div class="info-text-container">
+  
+                  <div class="info-box-container">
+                    <button class="nav-button Button">
+                        <div class="nav-title">
+                            <span>Restaurants</span>
+                            <svg style="margin-left: 30px;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><path d="M29.8,9.4l9.8,9.5c0.6,0.6,0.6,1.5,0,2.1l-9.8,9.5c-0.6,0.6-1.6,0.6-2.2,0C27,30,27,29,27.6,28.5l7.2-7H0v-3 h34.7l-7.2-7C27,11,27,10,27.6,9.4C28.2,8.9,29.2,8.9,29.8,9.4z"></path></svg>
+                        </div>
+                        
+                        <p style="font-size: medium;">
+                          Regardless of whether you're looking to have brunch, lunch, or dinner, or just enjoy a cozy coffee break with friends, Jönköping's city center offers a wide range of cafes, restaurants, and bars.                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-image-container">
+                <div class="info-text-container">
+  
+                  <div class="info-box-container">
+                    <button class="nav-button Button">
+                        <div class="info-title">
+                            <span>Hotels</span>
+                            <svg style="margin-left: 30px;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"><path d="M29.8,9.4l9.8,9.5c0.6,0.6,0.6,1.5,0,2.1l-9.8,9.5c-0.6,0.6-1.6,0.6-2.2,0C27,30,27,29,27.6,28.5l7.2-7H0v-3 h34.7l-7.2-7C27,11,27,10,27.6,9.4C28.2,8.9,29.2,8.9,29.8,9.4z"></path></svg>
+                        </div>
+                        
+                        <p style="font-size: medium;">
+                          Explore the various hotels available to find the one that best suits your needs during your stay.                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            
             </div>
+          </div>
         </div>
+      </div>
+
+  </body>
+  <div class="footer">
+    <div class="footer-container">
+      <div class="main-page-footer">
+        <div class="footer-menu">
+          <h1>Jonkoping City</h1>
+          <div class="footer-links-container">
+            <div class="main-page-container1">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                Export-Import Services
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                Sales Services
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                Human resources
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                Services
+              </a>
+            </div>
+            <div class="main-page-container2">
+              <a
+                href="about_us.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                About Us
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                FAQ
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                Terms and conditions
+              </a>
+              <a
+                href="contact_us.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-page-link01"
+              >
+                Contact Us
+              </a>
+
     </div>
     </body>
     <div class="footer">
@@ -203,7 +442,12 @@
                     <div>
                     </div>
                 </div>
+
             </div>
+          </div>
+          <div></div>
         </div>
+      </div>
     </div>
-    </html>
+  </div>
+</html>
