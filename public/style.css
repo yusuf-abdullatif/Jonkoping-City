@@ -385,6 +385,24 @@ body {
     border-radius: 50px;
 }
 
+.nav-box-button {
+    color: #000000;
+    border-color: teal;
+    border-width: 1px;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.nav-button {
+    color: #000000;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    width: 603px;
+    height: 300px;
+    
+}
+
 .info-image-container {
     width: 300px;
     display: flex;
@@ -413,6 +431,25 @@ body {
     padding-bottom: 0.5em;
 }
 
+.nav-title {
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    padding-bottom: 0.5em;
+}
+
+.nav-button:hover {
+    background-color: rgb(114, 181, 214);
+}
+
+.nav-title {
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+    margin-left: 0%;
+}
+
 .info-text {
     font-size: 12px;
     max-width: 250px;
@@ -425,7 +462,6 @@ body {
     height: auto;
     display: flex;
     min-height: 25vh;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -436,6 +472,7 @@ body {
     flex-direction: column;
     padding: 4em 2em;
     justify-content: flex-start;
+    padding-bottom: 0px;
 }
 
 .main-page-info-container {
