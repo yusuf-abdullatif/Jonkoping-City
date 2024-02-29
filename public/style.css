@@ -611,6 +611,9 @@ ul, div,   figcaption {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Adjust as needed */
+    position: relative;
+  
+    
 }
 
 .store-box {
@@ -621,9 +624,26 @@ ul, div,   figcaption {
     max-height: 150px;
     box-sizing: border-box;
     background-color: rgb(114, 181, 214);
+    
 }
 
-.store-box h2 {
+
+.alphabet-navigation {
+    position: sticky;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    background-color: #f5f5f5; /* Adjust background color as needed */
+    max-width: 15px;
+    
+}
+
+.letter {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.store-box h2 { 
     margin-bottom: 5px;
     font-size: 14px; /* Adjust font size */
 }
