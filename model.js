@@ -7,7 +7,7 @@ const pool = new Pool({
   host: process.env.DB_HOST ||  "localhost",
   database: 'postgres',
   password: process.env.PGPASSWORD,
-  port: 5432,
+  port: 5431,
 });
 
 class ModelClass {
@@ -17,7 +17,7 @@ class ModelClass {
             host: process.env.DB_HOST ||  "localhost",
             database: 'postgres',
             password: process.env.PGPASSWORD,
-            port: 5432,
+            port: 5431,
         })
     }
 
