@@ -40,19 +40,22 @@ function displayRestaurants(restaurants, containerId) {
     restaurants.forEach(restaurant => {
         const restaurantBox = document.createElement('div');
         restaurantBox.classList.add('store-box');
+        restaurantBox.style.maxHeight = '200px';
         restaurantBox.id = `letter-${restaurant.name[0].toLowerCase()}`; // Set an ID based on the first letter
 
         const nameElement = document.createElement('h2');
         nameElement.textContent = restaurant.name;
-        const districtElement = document.createElement('p');
-        districtElement.textContent = `District: ${restaurant.district || 'N/A'}`;
+        const infoElement = document.createElement('p');
+        infoElement.textContent = `Rating: ${restaurant.rating || 'N/A'}`;
+        infoElement.innerHTML += `<br>Type: ${restaurant.restaurant_type || 'N/A'}`;
+        infoElement.innerHTML += `<br><br>${restaurant.address || 'N/A'}`;
 
         const urlElement = document.createElement('a');
-        urlElement.href = restaurant.url;
+        urlElement.href = restaurant.website;
         urlElement.textContent = 'Visit Website';
 
         restaurantBox.appendChild(nameElement);
-        restaurantBox.appendChild(districtElement);
+        restaurantBox.appendChild(infoElement);
         restaurantBox.appendChild(urlElement);
 
         container.appendChild(restaurantBox);
