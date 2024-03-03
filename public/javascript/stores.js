@@ -23,6 +23,7 @@ function createAlphabetNavigation(stores, containerId, targetContainerId) {
         letterElement.textContent = letter.toUpperCase();
         letterElement.addEventListener('click', () => scrollToLetter(letter, targetContainerId));
         alphabetContainer.appendChild(letterElement);
+        
     });
 }
 
@@ -58,3 +59,22 @@ function displayStores(stores, containerId) {
         container.appendChild(storeBox);
     });
 }
+
+window.addEventListener('scroll', function() {
+    const storesContainer = document.getElementById('storesContainer');
+    const alphabetNavigation = document.getElementById('alphabetNavigation');
+    const storesContainerRect = storesContainer.getBoundingClientRect();
+
+    // If top of store container is visible in the windows 
+    if (storesContainerRect.top <= 0) {
+        // Calculate the distance between the top of the window and the bottom of the stores container
+        const distanceFromTop = Math.max(0, -storesContainerRect.top);
+        // Apply this distance as the offset value for the navigation bar
+        alphabetNavigation.style.top = distanceFromTop + 'px';
+    } else {
+        // If the stores container is at the top of the window, reset the offset of the navigation bar
+        alphabetNavigation.style.top = '0';
+    }
+});
+
+
