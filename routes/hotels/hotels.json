@@ -1,21 +1,9 @@
 [
     {
-        "name": "Sure Hotel by Best Western City Jonkoping",
-        "rating": "7.5",
+        "name": "Bashults Gård",
+        "rating": "8.6",
         "address": "Jönköping, Sweden",
-        "website": "http://www.surehoteljonkoping.com"
-    },
-    {
-        "name": "Quality Hotel Match",
-        "rating": "8.5",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.qualityhotelmatch.com"
-    },
-    {
-        "name": "Villa Björkhagen",
-        "rating": "7.3",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.villabjorkhagen.com"
+        "website": "http://www.bashultsgard.com"
     },
     {
         "name": "Best Western Plus John Bauer Hotel",
@@ -24,100 +12,10 @@
         "website": "http://www.johnbauerhotel.com"
     },
     {
-        "name": "Elite Stora Hotellet",
-        "rating": "7.8",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.elitestorahotellet.com"
-    },
-    {
-        "name": "Grand Hotel Jönköping",
-        "rating": "7.1",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.grandhoteljonkoping.com"
-    },
-    {
-        "name": "Comfort Hotel Jönköping",
-        "rating": "7.1",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.comforthoteljonkoping.com"
-    },
-    {
-        "name": "Clarion Collection Hotel Victoria",
-        "rating": "8.3",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.clarionvictoria.com"
-    },
-    {
-        "name": "ProfilHotels Savoy",
-        "rating": "7.6",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.profilhotelsavoy.com"
-    },
-    {
-        "name": "First Hotel Jönköping",
-        "rating": "7.7",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.firsthoteljonkoping.com"
-    },
-    {
-        "name": "Vox Hotel",
-        "rating": "7.7",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.voxhotel.com"
-    },
-    {
-        "name": "Scandic Elmia",
-        "rating": "7.4",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.scandicelmia.com"
-    },
-    {
         "name": "City Apartments in Jonkoping",
         "rating": "6.5",
         "address": "Jönköping, Sweden",
         "website": "http://www.cityapartmentsjonkoping.com"
-    },
-    {
-        "name": "Good Morning Jönköping",
-        "rating": "7.4",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.goodmorningjonkoping.com"
-    },
-    {
-        "name": "Scandic Portalen",
-        "rating": "6.6",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.scandicportalen.com"
-    },
-    {
-        "name": "Hyltena Stugby",
-        "rating": "7.3",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.hyltenastugby.com"
-    },
-    {
-        "name": "Bashults Gård",
-        "rating": "8.6",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.bashultsgard.com"
-    },
-    {
-        "name": "Jönköping Vandrarhem",
-        "rating": "6.0",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.jonkopingvandrarhem.com"
-    },
-    {
-        "name": "Lovsjöbadens Camping",
-        "rating": "N/A",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.lovsjobadenscamping.com"
-    },
-    {
-        "name": "Flores 3",
-        "rating": "9.4",
-        "address": "Jönköping, Sweden",
-        "website": "http://www.flores3.com"
     },
     {
         "name": "Cottage Sanna",
@@ -126,16 +24,22 @@
         "website": "http://www.cottagesanna.com"
     },
     {
-        "name": "Lägenhet på Strömsholm",
-        "rating": "9.0",
+        "name": "Elite Stora Hotellet",
+        "rating": "7.8",
         "address": "Jönköping, Sweden",
-        "website": "http://www.lagenhetstromsholm.com"
+        "website": "http://www.elitestorahotellet.com"
     },
     {
-        "name": "Hotell Taberg",
-        "rating": "7.5",
-        "address": "Taberg, Sweden",
-        "website": "http://www.hotelltaberg.com"
+        "name": "First Hotel Jönköping",
+        "rating": "7.7",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.firsthoteljonkoping.com"
+    },
+    {
+        "name": "Flores 3",
+        "rating": "9.4",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.flores3.com"
     },
     {
         "name": "Gisebo Vingård",
@@ -144,28 +48,46 @@
         "website": "http://www.gisebovingard.com"
     },
     {
-        "name": "Villa på landet, Habo",
-        "rating": "9.3",
-        "address": "Habo, Sweden",
-        "website": "http://www.villapalandethabo.com"
+        "name": "Good Morning Jönköping",
+        "rating": "7.4",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.goodmorningjonkoping.com"
     },
     {
-        "name": "Vätterleden Hotell & Restaurang",
-        "rating": "7.6",
-        "address": "Gränna, Sweden",
-        "website": "http://www.vatterledenhotel.com"
+        "name": "Grand Hotel Jönköping",
+        "rating": "7.1",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.grandhoteljonkoping.com"
     },
     {
-        "name": "Hotell Björkhaga",
-        "rating": "8.4",
+        "name": "Hyltena Stugby",
+        "rating": "7.3",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.hyltenastugby.com"
+    },
+    {
+        "name": "Jönköping Vandrarhem",
+        "rating": "6.0",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.jonkopingvandrarhem.com"
+    },
+    {
+        "name": "Lägenhet på Strömsholm",
+        "rating": "9.0",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.lagenhetstromsholm.com"
+    },
+    {
+        "name": "Lovsjöbadens Camping",
+        "rating": "N/A",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.lovsjobadenscamping.com"
+    },
+    {
+        "name": "Mullsjö Camping",
+        "rating": "6.7",
         "address": "Mullsjö, Sweden",
-        "website": "http://www.hotellbjorkhaga.com"
-    },
-    {
-        "name": "Vip Mullsjö",
-        "rating": "6.1",
-        "address": "Mullsjö, Sweden",
-        "website": "http://www.vipmullsjo.com"
+        "website": "http://www.mullsjo-camping.com"
     },
     {
         "name": "Mullsjö Hotell & Konferens",
@@ -174,10 +96,64 @@
         "website": "http://www.mullsjoconferencehotel.com"
     },
     {
-        "name": "Mullsjö Camping",
-        "rating": "6.7",
+        "name": "ProfilHotels Savoy",
+        "rating": "7.6",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.profilhotelsavoy.com"
+    },
+    {
+        "name": "Quality Hotel Match",
+        "rating": "8.5",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.qualityhotelmatch.com"
+    },
+    {
+        "name": "Scandic Elmia",
+        "rating": "7.4",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.scandicelmia.com"
+    },
+    {
+        "name": "Scandic Portalen",
+        "rating": "6.6",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.scandicportalen.com"
+    },
+    {
+        "name": "Sure Hotel by Best Western City Jonkoping",
+        "rating": "7.5",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.surehoteljonkoping.com"
+    },
+    {
+        "name": "Villa Björkhagen",
+        "rating": "7.3",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.villabjorkhagen.com"
+    },
+    {
+        "name": "Vip Mullsjö",
+        "rating": "6.1",
         "address": "Mullsjö, Sweden",
-        "website": "http://www.mullsjo-camping.com"
+        "website": "http://www.vipmullsjo.com"
+    },
+    {
+        "name": "Vätterleden Hotell & Restaurang",
+        "rating": "7.6",
+        "address": "Gränna, Sweden",
+        "website": "http://www.vatterledenhotel.com"
+    },
+    {
+        "name": "Villa på landet, Habo",
+        "rating": "9.3",
+        "address": "Habo, Sweden",
+        "website": "http://www.villapalandethabo.com"
+    },
+    {
+        "name": "Vox Hotel",
+        "rating": "7.7",
+        "address": "Jönköping, Sweden",
+        "website": "http://www.voxhotel.com"
     },
     {
         "name": "Ölandsberg, Lilla lägenheten",
