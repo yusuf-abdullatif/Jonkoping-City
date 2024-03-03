@@ -1,360 +1,338 @@
 [
-    {
-      "name": "Bada Bing Burger",
-      "rating": "4.4",
-      "address": "Östra Storgatan 82, 553 21 Jönköping, Sweden",
-      "restaurant_type": "Hamburger restaurant, Fast food restaurant",
-      "website": "https://badabingburger.se/"
-    },
-    {
+  {
+      "name": "9 Thai Restaurang Jönköping",
+      "rating": "4.7",
+      "address": "Västra Storgatan 12, 553 15 Jönköping, Sweden",
+      "restaurant_type": "Thai restaurant",
+      "website": "https://9thai.se/"
+  },
+  {
+      "name": "Alcamo Pizza & Salladsbar",
+      "rating": "3.9",
+      "address": "Kanalgatan 9, 553 22 Jönköping, Sweden",
+      "restaurant_type": "Pizza restaurant, Italian restaurant, Kebab shop",
+      "website": "http://www.alcamo.se/"
+  },
+  {
       "name": "Annagretas Restaurang i Jönköping AB",
       "rating": "4.4",
       "address": "Kapellgatan 19, 553 17 Jönköping, Sweden",
       "restaurant_type": "Tapas restaurant, Brunch restaurant, European restaurant, Lunch restaurant",
       "website": "http://www.annagretas.se/"
-    },
-    {
-      "name": "Kock & Bar",
-      "rating": "4.4",
-      "address": "Klostergatan 31, 553 35 Jönköping, Sweden",
-      "restaurant_type": "Restaurant",
-      "website": "http://kockochbar.se/"
-    },
-    {
-      "name": "Liban Deli",
-      "rating": "4.1",
-      "address": "Barnarpsgatan 29, 553 16 Jönköping, Sweden",
-      "restaurant_type": "Restaurant, Fast food restaurant, Lebanese restaurant, Lunch restaurant",
-      "website": ""
-    },
-    {
-      "name": "Samboosak",
-      "rating": "4.3",
-      "address": "Östra Storgatan 42, 553 21 Jönköping, Sweden",
-      "restaurant_type": "Lebanese restaurant, Fast food restaurant",
-      "website": "http://samboosak.se/"
-    },
-    {
-      "name": "La Locandiera",
-      "rating": "4.2",
-      "address": "Östra Storgatan 39, 553 21 Jönköping, Sweden",
-      "restaurant_type": "Italian restaurant",
-      "website": "http://lalocandiera.se/"
-    },
-    {
-      "name": "El Gordo",
-      "rating": "3.9",
-      "address": "Lillsjöraden 12, 553 20 Jönköping, Sweden",
-      "restaurant_type": "Tapas restaurant",
-      "website": "http://www.elgordo.se/"
-    },
-    {
-      "name": "Restaurang Jungle Thai",
-      "rating": "4.3",
-      "address": "Trädgårdsgatan 9, 553 16 Jönköping, Sweden",
-      "restaurant_type": "Thai restaurant, Bar, Brunch restaurant",
-      "website": "http://www.junglethai.com/"
-    },
-    {
-      "name": "Restaurang N.E.O.",
-      "rating": "3.9",
-      "address": "Södra Strandgatan 6, 553 20 Jönköping, Sweden",
-      "restaurant_type": "Bistro, Restaurant",
-      "website": "https://restaurangneo.se/"
-    },
-    {
-      "name": "Jensen's steakhouse",
-      "rating": "3.9",
-      "address": "Västra Storgatan 12, 553 15 Jönköping, Sweden",
-      "restaurant_type": "Restaurant, Family restaurant, Takeout Restaurant, Steak house",
-      "website": "http://www.jensens.com/sv/restauranger/jonkoping-2/"
-    },
-    {
-      "name": "Restaurang En Italienare & En Grek",
+  },
+  {
+      "name": "A6 Golfrestaurang",
       "rating": "3.7",
-      "address": "Barnarpsgatan 35, 553 16 Jönköping, Sweden",
-      "restaurant_type": "Italian restaurant, Greek restaurant, Restaurant, Wine store",
+      "address": "Centralvägen 37, 553 05 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Caterer, Lunch restaurant, Pizza restaurant",
       "website": ""
-    },
-    {
-      "name": "Rosegarden",
-      "rating": "4.2",
-      "address": "Östra Storgatan 33, 553 21 Jönköping, Sweden",
-      "restaurant_type": "Asian restaurant, Buffet restaurant",
-      "website": "https://rosegarden.se/locations/jkpggrand"
-    },
-    {
-      "name": "Pinchos",
-      "rating": "4.0",
-      "address": "Östra Storgatan 16, 553 21 Jönköping, Sweden",
-      "restaurant_type": "Tapas restaurant, Restaurant",
-      "website": "http://www.pinchos.se/"
-    },
-    {
-      "name": "O'Learys Jönköping",
-      "rating": "3.7",
-      "address": "Västra Storgatan 16, 553 15 Jönköping, Sweden",
-      "restaurant_type": "American restaurant, Bar & grill, Sports bar",
-      "website": "https://olearys.se/jonkoping/"
-    },
-    {
-      "name": "Indiska Köket - Restaurang/Lunch Jönköping",
+  },
+  {
+      "name": "Bada Bing Burger",
       "rating": "4.4",
-      "address": "Kapellgatan 15, 553 17 Jönköping, Sweden",
-      "restaurant_type": "Restaurant, Indian restaurant",
-      "website": "https://www.indiska-koket.se/"
-    },
-    {
+      "address": "Östra Storgatan 82, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Hamburger restaurant, Fast food restaurant",
+      "website": "https://badabingburger.se/"
+  },
+  {
       "name": "Basilika Kitchen & Bar - lunchbuffé i Jönköping",
       "rating": "4.0",
       "address": "Östra Storgatan 3, 553 21 Jönköping, Sweden",
       "restaurant_type": "Restaurant, Buffet restaurant, Caterer",
       "website": "http://basilikakitchenandbar.com/"
-    },
-    {
-      "name": "Izakaya Moshi",
-      "rating": "4.4",
-      "address": "Barnarpsgatan 32, 553 16 Jönköping, Sweden",
-      "restaurant_type": "Sushi restaurant, Asian restaurant",
-      "website": "https://www.izakayamoshi.com/"
-    },
-    {
-      "name": "Tigern",
-      "rating": "4.1",
-      "address": "Östra Storgatan 40, 553 21 Jönköping, Sweden",
-      "restaurant_type": "Asian restaurant, Japanese restaurant",
-      "website": "http://tigern.se/"
-    },
-    {
-      "name": "Harrys Jönköping",
-      "rating": "3.9",
-      "address": "Hovrättstorget 4, 553 18 Jönköping, Sweden",
-      "restaurant_type": "Restaurant, Pub",
-      "website": "https://harrys.se/jonkoping/"
-    },
-    {
-      "name": "Restaurang Ming Palace",
-      "rating": "3.7",
-      "address": "Västra Storgatan 6, 553 15 Jönköping, Sweden",
-      "restaurant_type": "Chinese restaurant",
-      "website": "http://www.mingpalace.se/"
-    },
-    {
-      "name": "Le Pain Francais",
+  },
+  {
+      "name": "Blåhed Gastronomi",
+      "rating": "4.5",
+      "address": "Trädgårdsgatan 9, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Deli, Cheese shop, European restaurant, Gift shop",
+      "website": "http://blahed.se/"
+  },
+  {
+      "name": "Brooklyn Burger City",
       "rating": "4.2",
-      "address": "Östra Storgatan 42, 553 21 Jönköping, Sweden",
-      "restaurant_type": "French restaurant, Bakery, Café, Breakfast restaurant, European restaurant, Lunch restaurant",
-      "website": "http://lepainfrancais.se/"
-    },
-    {
+      "address": "Trädgårdsgatan 23, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Hamburger restaurant, Fast food restaurant, Restaurant",
+      "website": "http://brooklynburger.se/"
+  },
+  {
+      "name": "Brooklyn Burger Express",
+      "rating": "4.4",
+      "address": "Torpaplan 2, 553 33 Jönköping, Sweden",
+      "restaurant_type": "Hamburger restaurant, Fast food restaurant, Takeout Restaurant",
+      "website": "http://www.brooklynburger.se/"
+  },
+  {
       "name": "Esters Café & Kök",
       "rating": "4.5",
       "address": "Klostergatan 6, 553 35 Jönköping, Sweden",
       "restaurant_type": "Restaurant, Café, European restaurant",
       "website": "http://www.esterscafe.se/"
-    },
-    {
+  },
+  {
+      "name": "Gamla Wok",
+      "rating": "4.0",
+      "address": "Borgmästargränd 5, 553 20 Jönköping, Sweden",
+      "restaurant_type": "Chinese restaurant",
+      "website": "http://www.gamlawok.se/"
+  },
+  {
+      "name": "Harrys Jönköping",
+      "rating": "3.9",
+      "address": "Hovrättstorget 4, 553 18 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Pub",
+      "website": "https://harrys.se/jonkoping/"
+  },
+  {
+      "name": "Izakaya Moshi",
+      "rating": "4.4",
+      "address": "Barnarpsgatan 32, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Sushi restaurant, Asian restaurant",
+      "website": "https://www.izakayamoshi.com/"
+  },
+  {
+      "name": "Indiska Köket - Restaurang/Lunch Jönköping",
+      "rating": "4.4",
+      "address": "Kapellgatan 15, 553 17 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Indian restaurant",
+      "website": "https://www.indiska-koket.se/"
+  },
+  {
+      "name": "Jensen's steakhouse",
+      "rating": "3.9",
+      "address": "Västra Storgatan 12, 553 15 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Family restaurant, Takeout Restaurant, Steak house",
+      "website": "http://www.jensens.com/sv/restauranger/jonkoping-2/"
+  },
+  {
+      "name": "Kock & Bar",
+      "rating": "4.4",
+      "address": "Klostergatan 31, 553 35 Jönköping, Sweden",
+      "restaurant_type": "Restaurant",
+      "website": "http://kockochbar.se/"
+  },
+  {
+      "name": "La Cantina",
+      "rating": "4.2",
+      "address": "Hovrättstorget 2, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Italian restaurant",
+      "website": "http://lacantina.se/"
+  },
+  {
+      "name": "La Locandiera",
+      "rating": "4.2",
+      "address": "Östra Storgatan 39, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Italian restaurant",
+      "website": "http://lalocandiera.se/"
+  },
+  {
+      "name": "Le Pain Francais",
+      "rating": "4.2",
+      "address": "Östra Storgatan 42, 553 21 Jönköping, Sweden",
+      "restaurant_type": "French restaurant, Bakery, Café, Breakfast restaurant, European restaurant, Lunch restaurant",
+      "website": "http://lepainfrancais.se/"
+  },
+  {
+      "name": "Liban Deli",
+      "rating": "4.1",
+      "address": "Barnarpsgatan 29, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Fast food restaurant, Lebanese restaurant, Lunch restaurant",
+      "website": ""
+  },
+  {
+      "name": "Mat & Vänner[nya kastrullhäxan]",
+      "rating": "3.9",
+      "address": "Oxtorgsgatan 19, 553 17 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Caterer",
+      "website": ""
+  },
+  {
+      "name": "MAX",
+      "rating": "3.9",
+      "address": "Jordbrovägen 8, 553 39 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Fast food restaurant",
+      "website": "http://www.max.se/sv/Hitta-Max/Restauranger/Jonkoping-Jordbrovagen/"
+  },
+  {
+      "name": "MAX Burgers",
+      "rating": "3.8",
+      "address": "Hästhovsvägen 1, 553 03 Jönköping, Sweden",
+      "restaurant_type": "Fast food restaurant",
+      "website": "http://www.max.se/sv/Hitta-Max/Restauranger/Jonkoping-A6-Max-Burgers/"
+  },
+  {
+      "name": "McDonald's",
+      "rating": "3.3",
+      "address": "Hagaleden 3, 553 39 Jönköping, Sweden",
+      "restaurant_type": "Fast food restaurant, Breakfast restaurant, Coffee shop",
+      "website": "https://www.mcdonalds.com/se/sv/location/jonkoping/a6-1.html"
+  },
+  {
+      "name": "Nha Trang Restaurant",
+      "rating": "4.0",
+      "address": "Herkulesvägen 17, 553 03 Jönköping, Sweden",
+      "restaurant_type": "Vietnamese restaurant",
+      "website": ""
+  },
+  {
+      "name": "O'Learys Jönköping",
+      "rating": "3.7",
+      "address": "Västra Storgatan 16, 553 15 Jönköping, Sweden",
+      "restaurant_type": "American restaurant, Bar & grill, Sports bar",
+      "website": "https://olearys.se/jonkoping/"
+  },
+  {
+      "name": "Pinchos",
+      "rating": "4.2",
+      "address": "Östra Storgatan 16, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Tapas restaurant",
+      "website": "https://pinchos.se/"
+  },
+  {
+      "name": "Pinchos",
+      "rating": "4.0",
+      "address": "Östra Storgatan 32, 553 15 Jönköping, Sweden",
+      "restaurant_type": "Tapas restaurant",
+      "website": "https://pinchos.se/"
+  },
+  {
+      "name": "Pizzeria Prima",
+      "rating": "4.2",
+      "address": "Östra Storgatan 48, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Pizza restaurant, Falafel restaurant, Fast food restaurant",
+      "website": "http://www.primapizzeria.se/"
+  },
+  {
+      "name": "Restaurang En Italienare & En Grek",
+      "rating": "3.7",
+      "address": "Barnarpsgatan 35, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Italian restaurant, Greek restaurant, Restaurant, Wine store",
+      "website": ""
+  },
+  {
+      "name": "Restaurang Jungle Thai",
+      "rating": "4.3",
+      "address": "Trädgårdsgatan 9, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Thai restaurant, Bar, Brunch restaurant",
+      "website": "http://www.junglethai.com/"
+  },
+  {
+      "name": "Restaurang Ming Palace",
+      "rating": "3.7",
+      "address": "Västra Storgatan 6, 553 15 Jönköping, Sweden",
+      "restaurant_type": "Chinese restaurant",
+      "website": "http://www.mingpalace.se/"
+  },
+  {
+      "name": "Restaurang N.E.O.",
+      "rating": "3.9",
+      "address": "Södra Strandgatan 6, 553 20 Jönköping, Sweden",
+      "restaurant_type": "Bistro, Restaurant",
+      "website": "https://restaurangneo.se/"
+  },
+  {
+      "name": "Restaurang Nobel",
+      "rating": "4.1",
+      "address": "Helnan Grand Hotel, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, European restaurant",
+      "website": "https://www.helnangrand.se/mat-dryck/"
+  },
+  {
+      "name": "Restaurang Peking",
+      "rating": "3.8",
+      "address": "Brogatan 9, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Chinese restaurant",
+      "website": "http://www.restaurangpekingjonkoping.se/"
+  },
+  {
       "name": "Rådhuskällaren",
       "rating": "3.8",
       "address": "Östra Storgatan 17, 553 21 Jönköping, Sweden",
       "restaurant_type": "Restaurant, European restaurant",
       "website": "http://radhuskallaren.se/"
-    },
-    {
-      "name": "TOSO Asian Kitchen",
-      "rating": "4.1",
-      "address": "Klostergatan 3, 553 35 Jönköping, Sweden",
-      "restaurant_type": "Asian restaurant, Sushi restaurant",
-      "website": "https://www.tosokitchen.se/"
-    },
-    {
-      "name": "Zmaka Mediterranean Grill",
-      "rating": "4.3",
-      "address": "Trädgårdsgatan 4, 553 16 Jönköping, Sweden",
-      "restaurant_type": "Grill restaurant, Mediterranean restaurant, Middle Eastern restaurant",
-      "website": "http://www.zmaka.se/"
-    },
-    {
+  },
+  {
+      "name": "Rob's Burger & Steak",
+      "rating": "4.2",
+      "address": "Klostergatan 16, 553 17 Jönköping, Sweden",
+      "restaurant_type": "Restaurant, Hamburger restaurant",
+      "website": "https://robsburgersteak.se/"
+  },
+  {
+      "name": "Rosegarden",
+      "rating": "4.2",
+      "address": "Östra Storgatan 33, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Asian restaurant, Buffet restaurant",
+      "website": "https://rosegarden.se/locations/jkpggrand"
+  },
+  {
+      "name": "Rosegarden I Jönköping AB",
+      "rating": "3.9",
+      "address": "Nygatan 10, 553 17 Jönköping, Sweden",
+      "restaurant_type": "Buffet restaurant",
+      "website": "http://www.rosegarden.se/"
+  },
+  {
+      "name": "Sora Sushi",
+      "rating": "4.4",
+      "address": "Östra Torpagatan, 553 33 Jönköping, Sweden",
+      "restaurant_type": "Sushi restaurant",
+      "website": "http://www.sorasushi.se/"
+  },
+  {
+      "name": "Subway",
+      "rating": "3.3",
+      "address": "Skolgatan 10, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Sandwich shop, Fast food restaurant, Takeout Restaurant, Restaurant",
+      "website": "https://restaurants.subway.com/sv/sverige/jonkoping/skolgatan-10/"
+  },
+  {
       "name": "Sushi Yama",
       "rating": "4.1",
       "address": "Barnarpsgatan 27, 553 16 Jönköping, Sweden",
       "restaurant_type": "Sushi restaurant, Japanese restaurant",
       "website": "http://sushiyama.se/"
-    },
-
-        {
-          "name": "Brooklyn Burger Express",
-          "rating": "4.4",
-          "address": "Torpaplan 2, 553 33 Jönköping, Sweden",
-          "restaurant_type": "Hamburger restaurant, Fast food restaurant, Takeout Restaurant",
-          "website": "http://www.brooklynburger.se/"
-        },
-        {
-          "name": "Rob's Burger & Steak",
-          "rating": "4.2",
-          "address": "Klostergatan 16, 553 17 Jönköping, Sweden",
-          "restaurant_type": "Restaurant, Hamburger restaurant",
-          "website": "https://robsburgersteak.se/"
-        },
-        {
-          "name": "Pizzeria Prima",
-          "rating": "4.2",
-          "address": "Östra Storgatan 48, 553 21 Jönköping, Sweden",
-          "restaurant_type": "Pizza restaurant, Falafel restaurant, Fast food restaurant",
-          "website": "http://www.primapizzeria.se/"
-        },
-        {
-          "name": "9 Thai Restaurang Jönköping",
-          "rating": "4.7",
-          "address": "Västra Storgatan 12, 553 15 Jönköping, Sweden",
-          "restaurant_type": "Thai restaurant",
-          "website": "https://9thai.se/"
-        },
-        {
-          "name": "Gamla Wok",
-          "rating": "4.0",
-          "address": "Borgmästargränd 5, 553 20 Jönköping, Sweden",
-          "restaurant_type": "Chinese restaurant",
-          "website": "http://www.gamlawok.se/"
-        },
-        {
-          "name": "Brooklyn Burger City",
-          "rating": "4.2",
-          "address": "Trädgårdsgatan 23, 553 16 Jönköping, Sweden",
-          "restaurant_type": "Hamburger restaurant, Fast food restaurant, Restaurant",
-          "website": "http://brooklynburger.se/"
-        },
-        {
-          "name": "Pizza Hut",
-          "rating": "3.8",
-          "address": "Sjukhusgatan 12, 553 05 Jönköping, Sweden",
-          "restaurant_type": "Pizza restaurant, American restaurant, Buffet restaurant",
-          "website": "https://www.pizzahut.se/pizza/jonkoping/a6-1?utm_source=google&u…"
-        },
-        {
-          "name": "Blåhed Gastronomi",
-          "rating": "4.5",
-          "address": "Trädgårdsgatan 9, 553 16 Jönköping, Sweden",
-          "restaurant_type": "Deli, Cheese shop, European restaurant, Gift shop",
-          "website": "http://blahed.se/"
-        },
-        {
-          "name": "Alcamo Pizza & Salladsbar",
-          "rating": "3.9",
-          "address": "Kanalgatan 9, 553 22 Jönköping, Sweden",
-          "restaurant_type": "Pizza restaurant, Italian restaurant, Kebab shop",
-          "website": "http://www.alcamo.se/"
-        },
-        {
-          "name": "Subway",
-          "rating": "3.3",
-          "address": "Skolgatan 10, 553 16 Jönköping, Sweden",
-          "restaurant_type": "Sandwich shop, Fast food restaurant, Takeout Restaurant, Restaurant",
-          "website": "https://restaurants.subway.com/sv/sverige/jonkoping/skolgatan-10…"
-        },
-        {
-          "name": "Yalla Yalla",
-          "rating": "3.8",
-          "address": "Hamnplansgatan 3, 553 15 Jönköping, Sweden",
-          "restaurant_type": "Fast food restaurant",
-          "website": "http://yallayallajonkoping.se/"
-        },
-        {
-          "name": "Nha Trang Restaurant",
-          "rating": "4.0",
-          "address": "Herkulesvägen 17, 553 03 Jönköping, Sweden",
-          "restaurant_type": "Vietnamese restaurant",
-          "website": ""
-        },
-        {
-          "name": "Mat & Vänner[nya kastrullhäxan]",
-          "rating": "3.9",
-          "address": "Oxtorgsgatan 19, 553 17 Jönköping, Sweden",
-          "restaurant_type": "Restaurant, Caterer",
-          "website": ""
-        },
-        {
-          "name": "MAX",
-          "rating": "3.9",
-          "address": "Jordbrovägen 8, 553 39 Jönköping, Sweden",
-          "restaurant_type": "Restaurant, Fast food restaurant",
-          "website": "http://www.max.se/sv/Hitta-Max/Restauranger/Jonkoping-Jordbrovag…"
-        },
-        {
-          "name": "McDonald's",
-          "rating": "3.3",
-          "address": "Hagaleden 3, 553 39 Jönköping, Sweden",
-          "restaurant_type": "Fast food restaurant, Breakfast restaurant, Coffee shop",
-          "website": "https://www.mcdonalds.com/se/sv-se/location/184.html"
-        },
-        {
-          "name": "Sora Sushi",
-          "rating": "4.4",
-          "address": "Östra Torpagatan, 553 33 Jönköping, Sweden",
-          "restaurant_type": "Sushi restaurant",
-          "website": "http://www.sorasushi.se/"
-        },
-        {
-          "name": "A6 Golfrestaurang",
-          "rating": "3.7",
-          "address": "Centralvägen 37, 553 05 Jönköping, Sweden",
-          "restaurant_type": "Restaurant, Caterer, Lunch restaurant, Pizza restaurant",
-          "website": ""
-        },
-        {
-          "name": "MAX Burgers",
-          "rating": "3.8",
-          "address": "Hästhovsvägen 1, 553 03 Jönköping, Sweden",
-          "restaurant_type": "Fast food restaurant",
-          "website": "http://www.max.se/sv/Hitta-Max/Restauranger/Jonkoping-A6-Max-Bur…"
-        },
-        {
-          "name": "Restaurang Nobel",
-          "rating": "4.1",
-          "address": "Helnan Grand Hotel, 553 21 Jönköping, Sweden",
-          "restaurant_type": "Restaurant, European restaurant",
-          "website": "https://www.helnangrand.se/mat-dryck/"
-        },
-        {
-          "name": "Pinchos",
-          "rating": "4.2",
-          "address": "Östra Storgatan 32, 553 15 Jönköping, Sweden",
-          "restaurant_type": "Tapas restaurant",
-          "website": "https://pinchos.se/"
-        },
-        {
-          "name": "Rosegarden I Jönköping AB",
-          "rating": "3.9",
-          "address": "Nygatan 10, 553 17 Jönköping, Sweden",
-          "restaurant_type": "Buffet restaurant",
-          "website": "http://www.rosegarden.se/"
-        },
-        {
-          "name": "Restaurang Peking",
-          "rating": "3.8",
-          "address": "Brogatan 9, 553 16 Jönköping, Sweden",
-          "restaurant_type": "Chinese restaurant",
-          "website": "http://www.restaurangpekingjonkoping.se/"
-        },
-        {
-          "name": "La Cantina",
-          "rating": "4.2",
-          "address": "Hovrättstorget 2, 553 21 Jönköping, Sweden",
-          "restaurant_type": "Italian restaurant",
-          "website": "http://lacantina.se/"
-        },
-        {
-          "name": "Twin City",
-          "rating": "3.9",
-          "address": "Rådhusgatan 4, 553 16 Jönköping, Sweden",
-          "restaurant_type": "Thai restaurant",
-          "website": "http://twincityjonkoping.se/"
-        },
-        {
-          "name": "Vätternrundan",
-          "rating": "3.9",
-          "address": "Västra Storgatan 5, 553 15 Jönköping, Sweden",
-          "restaurant_type": "Café",
-          "website": "https://www.vatternrundan.se/se/moten--aktiviteter/vatternrundans…"
-        }
-      ]
+  },
+  {
+      "name": "TOSO Asian Kitchen",
+      "rating": "4.1",
+      "address": "Klostergatan 3, 553 35 Jönköping, Sweden",
+      "restaurant_type": "Asian restaurant, Sushi restaurant",
+      "website": "https://www.tosokitchen.se/"
+  },
+  {
+      "name": "Tigern",
+      "rating": "4.1",
+      "address": "Östra Storgatan 40, 553 21 Jönköping, Sweden",
+      "restaurant_type": "Asian restaurant, Japanese restaurant",
+      "website": "http://tigern.se/"
+  },
+  {
+      "name": "Twin City",
+      "rating": "3.9",
+      "address": "Rådhusgatan 4, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Thai restaurant",
+      "website": "http://twincityjonkoping.se/"
+  },
+  {
+      "name": "Vätternrundan",
+      "rating": "3.9",
+      "address": "Västra Storgatan 5, 553 15 Jönköping, Sweden",
+      "restaurant_type": "Café",
+      "website": "https://www.vatternrundan.se/se/moten--aktiviteter/vatternrundans-"
+  },
+  {
+      "name": "Yalla Yalla",
+      "rating": "3.8",
+      "address": "Hamnplansgatan 3, 553 15 Jönköping, Sweden",
+      "restaurant_type": "Fast food restaurant",
+      "website": "http://yallayallajonkoping.se/"
+  },
+  {
+      "name": "Zmaka Mediterranean Grill",
+      "rating": "4.3",
+      "address": "Trädgårdsgatan 4, 553 16 Jönköping, Sweden",
+      "restaurant_type": "Grill restaurant, Mediterranean restaurant, Middle Eastern restaurant",
+      "website": "http://www.zmaka.se/"
+  }
+]
