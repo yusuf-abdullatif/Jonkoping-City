@@ -1,16 +1,16 @@
-// Assuming stores is an array of objects with a 'name' property
-fetch('http://localhost:3000/stores/all')
+// Assuming hotels is an array of objects with a 'name' property
+fetch('http://localhost:3000/hotels/all')
     .then(response => response.json())
-    .then(stores => {
-        displayStores(stores, 'storesContainer');
-        createAlphabetNavigation(stores, 'alphabetNavigation', 'storesContainer');
+    .then(hotels => {
+        displayHotels(hotels, 'storesContainer');
+        createAlphabetNavigation(hotels, 'alphabetNavigation', 'storesContainer');
     });
 
-function createAlphabetNavigation(stores, containerId, targetContainerId) {
+function createAlphabetNavigation(hotels, containerId, targetContainerId) {
     const alphabetContainer = document.getElementById(containerId);
 
-    // Extract unique first letters from store names
-    const uniqueFirstLetters = [...new Set(stores.map(store => store.name[0].toLowerCase()))];
+    // Extract unique first letters from hotels names
+    const uniqueFirstLetters = [...new Set(hotels.map(hotel => hotel.name[0].toLowerCase()))];
 
     // Sort the letters alphabetically
     uniqueFirstLetters.sort();
@@ -23,7 +23,6 @@ function createAlphabetNavigation(stores, containerId, targetContainerId) {
         letterElement.textContent = letter.toUpperCase();
         letterElement.addEventListener('click', () => scrollToLetter(letter, targetContainerId));
         alphabetContainer.appendChild(letterElement);
-        
     });
 }
 
@@ -35,28 +34,30 @@ function scrollToLetter(letter, targetContainerId) {
     }
 }
 
-function displayStores(stores, containerId) {
+function displayHotels(hotels, containerId) {
     const container = document.getElementById(containerId);
 
-    stores.forEach(store => {
-        const storeBox = document.createElement('div');
-        storeBox.classList.add('store-box');
-        storeBox.id = `letter-${store.name[0].toLowerCase()}`; // Set an ID based on the first letter
+    hotels.forEach(hotel => {
+        const hotelBox = document.createElement('div');
+        hotelBox.classList.add('store-box');
+        hotelBox.style.maxHeight = '200px';
+        hotelBox.id = `letter-${hotel.name[0].toLowerCase()}`; // Set an ID based on the first letter
 
         const nameElement = document.createElement('h2');
-        nameElement.textContent = store.name;
-        const districtElement = document.createElement('p');
-        districtElement.textContent = `District: ${store.district || 'N/A'}`;
+        nameElement.textContent = hotel.name;
+        const infoElement = document.createElement('p');
+        infoElement.textContent = `Rating: ${hotel.rating || 'N/A'}`;
+        infoElement.innerHTML += `<br><br>${hotel.address || 'N/A'}`;
 
         const urlElement = document.createElement('a');
-        urlElement.href = store.url;
+        urlElement.href = hotel.website;
         urlElement.textContent = 'Visit Website';
 
-        storeBox.appendChild(nameElement);
-        storeBox.appendChild(districtElement);
-        storeBox.appendChild(urlElement);
+        hotelBox.appendChild(nameElement);
+        hotelBox.appendChild(infoElement);
+        hotelBox.appendChild(urlElement);
 
-        container.appendChild(storeBox);
+        container.appendChild(hotelBox);
     });
 }
 
@@ -76,5 +77,3 @@ window.addEventListener('scroll', function() {
         alphabetNavigation.style.top = '0';
     }
 });
-
-

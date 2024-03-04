@@ -657,3 +657,16 @@ ul, div,   figcaption {
     margin-top: 5px;
     font-size: 12px; /* Adjust font size */
 }
+
+.stores-container {
+    position: relative;
+}
+
+.alphabet-navigation {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+}
+
+
+
