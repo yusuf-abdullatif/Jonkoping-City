@@ -129,6 +129,7 @@ class ModelClass {
         SELECT * FROM public.hotels`);
         return rows;
     }
+    
 }
 
 module.exports = ModelClass;

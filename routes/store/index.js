@@ -7,6 +7,7 @@ const stores = require('./stores.json')
 
 app.get('/stores/storename/', async (req, res) => {
   const stores = await Model.getAllStores();
+  console.log(stores);
     const { storename } = req.query;
   
     const index = stores.findIndex(store => store.name === storename);
@@ -45,5 +46,24 @@ app.get('/stores/storename/', async (req, res) => {
       stores.push(body)
       res.send('Store added!')
   })
+
+  app.get('/stores/storesByNameStartsWith/', async (req, res) => {
+    const stores = await Model.getAllStores();
+      const { storename } = req.query;
+    
+      const matchedStores = stores.filter(store => store.name.startsWith(storename));
+      //console.log(matchedStores);
+    
+      if (matchedStores.length>0) {
+        res.send(matchedStores)
+      } else {
+        res.send('Store not found!')  
+      }
+    })
+
+
+
+
+  
   
   module.exports=app
