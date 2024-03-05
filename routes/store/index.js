@@ -49,17 +49,17 @@ app.get('/stores/storename/', async (req, res) => {
 
   app.get('/stores/storesByNameStartsWith/', async (req, res) => {
     const stores = await Model.getAllStores();
-      const { storename } = req.query;
+    const { storename } = req.query;
     
-      const matchedStores = stores.filter(store => store.name.startsWith(storename));
-      //console.log(matchedStores);
+    const matchedStores = stores.filter(store => store.name.toLowerCase().startsWith(storename.toLowerCase()));
     
-      if (matchedStores.length>0) {
-        res.send(matchedStores)
-      } else {
-        res.send('Store not found!')  
-      }
-    })
+    if (matchedStores.length > 0) {
+        res.send(matchedStores);
+    } else {
+        res.send('Store not found!');
+    }
+});
+
 
 
 
