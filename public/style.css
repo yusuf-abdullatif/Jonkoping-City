@@ -612,8 +612,8 @@ ul, div,   figcaption {
     flex-wrap: wrap;
     justify-content: space-between; /* Adjust as needed */
     position: relative;
-  
-    
+    margin-left: 40px; 
+    margin-right: 40px;
 }
 
 .store-box {
@@ -667,6 +667,28 @@ ul, div,   figcaption {
     top: 0; 
     right: 0; 
 }
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px; 
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
 
 
 
