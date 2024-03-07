@@ -10,3 +10,7 @@ fetch('http://localhost:3000/stores/all')
     .then(store => {
         console.log(store)
     });
+
+    function redirectToLogin() {
+        window.location.href = '/login.html';
+      }

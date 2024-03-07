@@ -25,6 +25,9 @@ app.use(express.static(p)); //allow delivering local content
 
 app.use(cookieParser());
 
+app.get('/login', (req, res) => {
+  res.sendFile(__dirname + '/login.html');
+});
 
 app.get('/login', async (req,res) =>{
   const {username, password} = req.query;
