@@ -4,6 +4,7 @@ fetch('http://localhost:3000/stores/all')
     .then(stores => {
         displayStores(stores, 'storesContainer');
         createAlphabetNavigation(stores, 'alphabetNavigation', 'storesContainer');
+        displayDistricts(stores, 'byDistrict');
     });
 
 function createAlphabetNavigation(stores, containerId, targetContainerId) {
@@ -76,5 +77,25 @@ window.addEventListener('scroll', function() {
         alphabetNavigation.style.top = '0';
     }
 });
+
+function displayDistricts(stores, selectId) {
+    const selectElement = document.getElementById(selectId);
+
+    // Extract unique districts from stores
+    const uniqueDistricts = [...new Set(stores.map(store => store.district))];
+
+    // Remove any existing options
+    selectElement.innerHTML = '';
+
+    // Create an option for each district and append it to the select element
+    uniqueDistricts.forEach(district => {
+        if (district!=null) {
+            const optionElement = document.createElement('option');
+            optionElement.value = district;
+            optionElement.textContent = district; 
+            selectElement.appendChild(optionElement);
+        }
+    });
+}
 
 
