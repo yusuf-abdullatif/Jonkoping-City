@@ -46,4 +46,18 @@ app.get('/hotels/hotelname/', async (req, res) => {
       res.send('hotel added!')
   })
   
+  app.get('/hotels/hotelsByNameStartsWith/', async (req, res) => {
+    const hotels = await Model.getAllHotels();
+    const { hotelname } = req.query;
+    
+    const matchedHotels = hotels.filter(hotel => hotel.name.toLowerCase().startsWith(hotelname.toLowerCase()));
+    
+    if (matchedHotels.length > 0) {
+        res.send(matchedHotels);
+    } else {
+        res.send('Hotel not found!');
+    }
+});
+
+
   module.exports=app

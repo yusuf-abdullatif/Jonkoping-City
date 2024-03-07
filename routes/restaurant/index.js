@@ -45,5 +45,19 @@ app.get('/restaurants/restaurantname/', async (req, res) => {
       restaurants.push(body)
       res.send('Restaurant added!')
   })
+
+  app.get('/restaurants/restaurantsByNameStartsWith/', async (req, res) => {
+    const restaurants = await Model.getAllRestaurants();
+    const { restaurantname } = req.query;
+    
+    const matchedRestaurants = restaurants.filter(restaurant => restaurant.name.toLowerCase().startsWith(restaurantname.toLowerCase()));
+    
+    if (matchedRestaurants.length > 0) {
+        res.send(matchedRestaurants);
+    } else {
+        res.send('Restaurant not found!');
+    }
+});
+  
   
   module.exports=app

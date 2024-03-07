@@ -88,6 +88,20 @@
         </div>
     </div>
 
+    <input type="text" id="searchInput" placeholder="Enter your search...">
+    <button id="searchButton">Search</button>
+
+    <script>
+        document.getElementById("searchButton").addEventListener("click", function() {
+            window.searchText = document.getElementById("searchInput").value;
+            
+            var script = document.createElement('script');
+            script.src = 'javascript/hotelsSearch.js';
+            document.head.appendChild(script);
+
+        });
+    </script>
+
     <div id="storesContainer" class="stores-container">
         <div id="alphabetNavigation" class="alphabet-navigation">
             <!-- Add letters dynamically using JavaScript -->

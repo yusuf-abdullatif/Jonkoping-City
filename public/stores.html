@@ -88,6 +88,44 @@
         </div>
     </div>
 
+    <input type="text" id="searchInput" placeholder="Enter your search...">
+    <button id="searchButton">Search</button>
+
+    <label for="byDistrict">Sort by district:</label>
+    
+    <select name="byDistrict" id="byDistrict">
+      <!-- options will be populated dynamically -->
+    </select> 
+
+    <button id="resetButton">Reset</button>
+      
+
+    <script>
+        document.getElementById("searchButton").addEventListener("click", function() {
+            window.searchText = document.getElementById("searchInput").value;
+            
+            var script = document.createElement('script');
+            script.src = 'javascript/storesSearch.js';
+            document.head.appendChild(script);
+
+        });
+
+        
+        const selectElement = document.getElementById('byDistrict');
+        selectElement.addEventListener('change', function() {
+           
+            window.districtText = this.value;
+
+            const script = document.createElement('script');
+            script.src = 'javascript/storesFilter.js';
+            document.head.appendChild(script);
+         });
+
+        document.getElementById("resetButton").addEventListener("click", function() {
+            window.location.reload();
+        });
+
+    </script>
     
    
     <div id="storesContainer" class="stores-container" >
