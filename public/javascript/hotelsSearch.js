@@ -23,6 +23,7 @@ function displayHotels(hotels, containerId) {
         infoElement.innerHTML += `<br><br>${hotel.address || 'N/A'}`;
 
         const urlElement = document.createElement('a');
+        urlElement.classList.add('openWebsite')
         urlElement.href = hotel.website;
         urlElement.textContent = 'Visit Website';
 
