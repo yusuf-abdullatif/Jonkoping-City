@@ -50,6 +50,7 @@ function displayStores(stores, containerId) {
         districtElement.textContent = `District: ${store.district || 'N/A'}`;
 
         const urlElement = document.createElement('a');
+        urlElement.classList.add('openWebsite')
         urlElement.href = store.url;
         urlElement.textContent = 'Visit Website';
 
@@ -97,5 +98,7 @@ function displayDistricts(stores, selectId) {
         }
     });
 }
+
+
 
 
