@@ -51,6 +51,7 @@ function displayRestaurants(restaurants, containerId) {
         infoElement.innerHTML += `<br><br>${restaurant.address || 'N/A'}`;
 
         const urlElement = document.createElement('a');
+        urlElement.classList.add('openWebsite')
         urlElement.href = restaurant.website;
         urlElement.textContent = 'Visit Website';
 
