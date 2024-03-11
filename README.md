@@ -17,7 +17,7 @@ docker push localhost:5000/yusuf
 
 To deploy the application on Kubernetes, run the following command:
 
-kubectl port-forward svc/yusuf-service 3000:3000-n jkpgcity
+kubectl port-forward svc/yusuf-service 3000:3000 -n jkpgcity
 The application will be accessible at http://localhost:3000.
 
 Database Configuration

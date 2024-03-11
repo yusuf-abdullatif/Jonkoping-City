@@ -26,18 +26,17 @@ app.use(express.static(p)); //allow delivering local content
 app.use(cookieParser());
 
 app.get('/login', (req, res) => {
-  res.sendFile(__dirname + '/login.html');
+  res.sendFile(path.join(__dirname, 'public', 'login.html'));
 });
 
-app.get('/login', async (req,res) =>{
-  const {username, password} = req.query;
-  if(username === 'yusuf' && password === '12345'){
-    res.cookie('token', 'super-secret-cookie',{httpOnly: true})
+app.get('/authenticate', async (req, res) => {
+  const { username, password } = req.query;
+  if (username === 'yusuf' && password === '12345') {
+    res.cookie('token', 'super-secret-cookie', { httpOnly: true });
     res.send('Login successful');
-  } else{
-    res.status(401).send("Invalid username or password");
+  } else {
+    res.status(401).send('Invalid username or password');
   }
-
 });
 
 app.get('/check-user-status', async(req, res) => {
